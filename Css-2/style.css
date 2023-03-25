@@ -1,0 +1,20 @@
+/*셀렉터 - 꾸며줄 대상을 선택*/
+body{
+    font-family: "Nanum Gothic";
+}
+
+/*클래스 셀렉터*/
+.main{
+    color:#e43681;
+}
+
+.sub{
+    color: #25b;
+}
+
+/*아이디 셀렉터*/
+#useless{
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 38px;
+}
