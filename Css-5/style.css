@@ -1,0 +1,17 @@
+div{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(35, 85, 102);
+
+    margin: 5px;
+    padding: 10px;
+}
+
+span{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+
+
+    padding: 10px;
+}
