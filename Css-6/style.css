@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    /*100% view height*/
+    height: 200vh;
+    background-color: aqua;
+    border: 4px solid black;
+    position: relative;
+}
+
+.block{
+    width: 30px;
+    height: 30px;
+    background-color: lightcoral;
+    margin: 5px;
+    border: 4px solid black;
+    font-size: 30px;
+}
+
+#a {
+    position: static;
+    /*기본 값*/
+    /*position: static;*/
+}
+
+#b{
+    position: relative;
+    top: 30px;  /*top 으로부터 30px만큼 이동*/
+    left: 30px;    /*bottom 으로부터 30px만큼 이동*/
+}
+
+#c{
+    position: absolute;
+    top: 0;
+    right: 0; 
+    
+}
+
+#d{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#e{
+    position: sticky;
+    top: 0;
+
+}
